@@ -15,22 +15,22 @@
   </prerequisites>
 
   <modules>
-    <module>recipe-1-application</module>
-    <module>recipe-2-producer</module>
-    <module>recipe-2-consumer</module>
-    <module>recipe-3-producer</module>
-    <module>recipe-3-consumer</module>
-    <module>recipe-4-consumer</module>
-    <module>recipe-5-requester</module>
-    <module>recipe-5-responder</module>
-    <module>recipe-6-scheduling</module>
-    <module>recipe-7-advisory-consumer</module>
-    <module>recipe-7-advisory-source</module>
-    <module>recipe-8-embedded-broker</module>
-    <module>recipe-9-connection-pools</module>
-    <module>recipe-10-virtual-destinations</module>
-    <module>recipe-11-failover-consumer</module>
-    <module>recipe-11-failover-producer</module>
+    <module>simple-jms-application</module>
+    <module>job-producer</module>
+    <module>job-consumer</module>
+    <module>event-publisher</module>
+    <module>event-subscriber</module>
+    <module>selective-event-consumer</module>
+    <module>jms-requester</module>
+    <module>jms-responder</module>
+    <module>message-scheduling</module>
+    <module>advisory-consumer</module>
+    <module>advisory-generator</module>
+    <module>embedded-broker</module>
+    <module>connection-pools</module>
+    <module>virtual-destinations</module>
+    <module>failover-consumer</module>
+    <module>failover-producer</module>
   </modules>
 
   <build>
